@@ -5,6 +5,7 @@ pygame.init()
 pygame.display.set_caption('Рисуем флаг')
 size = 300, 300
 screen = pygame.display.set_mode(size)
+screen.fill((5, 150, 230))
 
 pygame.draw.rect(screen, pygame.Color('brown'), (0, 0, 10, 300), 0)
 pygame.draw.rect(screen, pygame.Color('white'), (10, 2, 288, 50), 0)
