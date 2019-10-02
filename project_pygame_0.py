@@ -2,6 +2,7 @@ import pygame
 
 
 pygame.init()
+pygame.display.set_caption('Рисуем флаг')
 size = 300, 300
 screen = pygame.display.set_mode(size)
 
